@@ -1,18 +1,4 @@
-from ex4 import calculadora
-
-
-def somar(x,y):
-    return x+y
-
-print(somar(10,10))
-
-####
-
-c = calculadora(10,10)
-print(c.somar())
-
-####
-
-soma = lambda x,y : x+y
-
-soma(x,y)
+class calculadora():
+    def __init__(self,x,y):
+    self.x = x
+    self.y = y
